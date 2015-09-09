@@ -1,4 +1,7 @@
 'use strict'
+
+// @Compiler-Transpile "true"
+
 class GoogleRecaptcha extends HTMLElement {
   createdCallback() {
     this.style.display = 'block'
