@@ -62,6 +62,10 @@ class GoogleRecaptcha extends HTMLElement {
 GoogleRecaptcha._API_URL = 'https://www.google.com/recaptcha/api.js'
 GoogleRecaptcha._SCRIPT_LOADED = false
 
-document.registerElement('google-recaptcha', {
+GoogleRecaptcha.Element = document.registerElement('google-recaptcha', {
   prototype: Object.create(GoogleRecaptcha.prototype)
 })
+
+if (typeof module !== 'undefined') {
+  module.exports = GoogleRecaptcha.Element
+}
