@@ -1,6 +1,8 @@
 'use strict'
 
 // @Compiler-Transpile "true"
+// @Compiler-Minify "true"
+// @Compiler-Output "google-recaptcha.min.js"
 
 class GoogleRecaptcha extends HTMLElement {
   createdCallback() {
