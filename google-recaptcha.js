@@ -1,6 +1,7 @@
 'use strict'
 class GoogleRecaptcha extends HTMLElement {
   createdCallback() {
+    this.style.display = 'block'
     this.config = {
       sitekey: this.getAttribute('sitekey') || '',
       theme: this.getAttribute('theme') || 'light',
