@@ -1,5 +1,5 @@
 {
-  "name": "sb-google-recaptch",
+  "name": "sb-google-recaptcha",
   "version": "1.0.0",
   "description": "Google Recaptcha as an HTML5 Custom Element",
   "main": "google-recaptcha.js",
