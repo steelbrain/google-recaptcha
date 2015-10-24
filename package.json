@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/steelbrain/google-recaptcha#readme",
   "dependencies": {
-    "custom-element-base": "1.0.2"
+    "custom-element-base": "^2.0.0"
   }
 }
