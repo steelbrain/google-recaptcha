@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/steelbrain/google-recaptcha/issues"
   },
-  "homepage": "https://github.com/steelbrain/google-recaptcha#readme"
+  "homepage": "https://github.com/steelbrain/google-recaptcha#readme",
+  "dependencies": {
+    "custom-element-base": "1.0.2"
+  }
 }
