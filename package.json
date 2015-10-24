@@ -2,9 +2,10 @@
   "name": "sb-google-recaptcha",
   "version": "1.0.1",
   "description": "Google Recaptcha as an HTML5 Custom Element",
-  "main": "google-recaptcha.js",
+  "main": "dist/google-recaptcha.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "uc-compile lib/google-recaptcha.js > dist/google-recaptcha.min.js"
   },
   "repository": {
     "type": "git",
