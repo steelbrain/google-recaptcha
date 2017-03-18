@@ -1,5 +1,7 @@
 Google-Recaptcha
 ===============
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/google-recaptcha.svg)](https://greenkeeper.io/)
 Google-Recaptcha is a HTML5 Custom Element that empowers you to use the Google Recaptcha without knowing their API at all. It's easy as in pie.
 
 For browsers who don't support native custom elements, You're gonna need to import a polyfill :(
